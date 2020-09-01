@@ -7,8 +7,8 @@ const Header = () => {
             <Link to="/" className="item">Streamer</Link>
             <div className="right menu">
                 <Link to="/" className="item">All Streams</Link>
-               {/* <GoogleAuth></GoogleAuth> */}
-               <div className="g-signin2" data-onsuccess="onSignIn"></div>
+               {/* <div className="g-signin2" data-onsuccess="onSignIn"></div> */}
+               <GoogleAuth className="item"></GoogleAuth>
             </div>
         </div>
     );
